@@ -1,7 +1,7 @@
 # CyberArk API Automation (Python)
 
 Built scripts to authenticate with CyberArk Identity APIs using OAuth client credentials, generate bearer tokens, and perform authenticated identity attribute queries for user and access workflows. 
-Note: Requires valid CyberArk identity credentials (api user assigned to OAuth app), and a user UUID for lookups (can also do lookups via username). Live execution depends on tenant access.
+Requires valid CyberArk identity credentials (api user assigned to OAuth app), and a user UUID for lookups (can also do lookups via username). Live execution depends on tenant access.
 
 ---
 
