@@ -37,8 +37,8 @@ The goal of this project is not full application development, but practical secu
 ```
 cyberark-api-automation/
 ├── get_token.py        # Generates OAuth bearer token
-├── get_user.py         # Retrieves user attributes using the GetUser api endpoint
-├── search_users.py     # Retrieves users using the GetUsers api endpoint
+├── get_user.py         # Retrieves user attributes via 'GetUser' api endpoint for a specific user
+├── search_users.py     # Retrieves all users via the 'GetUsers' api endpoint
 ├── requirements.txt
 └── README.md
 ```
