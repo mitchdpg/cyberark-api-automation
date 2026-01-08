@@ -38,6 +38,7 @@ The goal of this project is not full application development, but practical secu
 cyberark-api-automation/
 ├── get_token.py        # Generates OAuth bearer token
 ├── get_user.py         # Retrieves user attributes using the GetUser api endpoint
+├── search_users.py     # Retrieves users using the GetUsers api endpoint
 ├── requirements.txt
 └── README.md
 ```
@@ -56,9 +57,10 @@ Example usage:
 ```bash
 export CYBERARK_ACCESS_TOKEN="$(python3 get_token.py)"
 python3 search_users.py "mitchell"
+```
 
-Users found: 5
-- Mitchell Gardner (mitchell_gardner@cyberark.cloud)
+Example Output: Users found: 5
+
 
 ---
 
