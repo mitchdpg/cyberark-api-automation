@@ -37,11 +37,28 @@ The goal of this project is not full application development, but practical secu
 ```
 cyberark-api-automation/
 ├── get_token.py        # Generates OAuth bearer token
-├── get_user.py         # Retrieves user identity data
+├── get_user.py         # Retrieves user attributes using the GetUser api endpoint
 ├── requirements.txt
 └── README.md
 ```
 
+## Additional Script: User Search (GetUsers API Endpoint)
+
+This project also includes a user search script that demonstrates querying CyberArk Identity for users matching a search string.
+
+### search_users.py
+- Accepts a search term as a command-line argument
+- Uses a bearer token generated via OAuth 2.0 client credentials
+- Returns a count of matching users and basic identity attributes
+
+Example usage:
+
+```bash
+export CYBERARK_ACCESS_TOKEN="$(python3 get_token.py)"
+python3 search_users.py "mitchell"
+
+Users found: 5
+- Mitchell Gardner (mitchell_gardner@cyberark.cloud)
 
 ---
 
