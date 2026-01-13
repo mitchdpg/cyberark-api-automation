@@ -13,6 +13,21 @@ All examples use placeholder values.
 
 ---
 
+## Configuration & Variables
+
+This project uses environment variables to securely configure authentication and API access.
+
+Required variables:
+- CYBERARK_TENANT_URL – Base URL for the CyberArk Identity tenant
+- CYBERARK_CLIENT_ID – OAuth client ID
+- CYBERARK_CLIENT_SECRET – OAuth client secret
+- CYBERARK_SCOPE – OAuth scope for API access
+- USER_UUID – Target user identifier for lookup
+
+All sensitive values are stored as environment variables and are not hard-coded.
+
+---
+
 ## Overview
 
 This project demonstrates lightweight Python automation using CyberArk Identity APIs. It focuses on authenticating via OAuth 2.0 client credentials, generating a bearer access token, and performing authenticated API calls to retrieve user identity information.
@@ -59,7 +74,7 @@ export CYBERARK_ACCESS_TOKEN="$(python3 get_token.py)"
 python3 search_users.py "mitchell"
 ```
 
-Example Output: Users found: 5
+Example Output: Users found: 1
 
 
 ---
