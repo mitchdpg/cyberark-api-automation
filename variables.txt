@@ -1,4 +1,4 @@
-## Configuration & Variables
+## Variables Quick Reference Guide
 
 This project uses environment variables to securely configure authentication and API access.
 
