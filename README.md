@@ -5,6 +5,14 @@ Requires valid CyberArk identity credentials (api user assigned to OAuth app), a
 
 ---
 
+## Overview
+
+This project demonstrates lightweight Python automation using CyberArk Identity APIs. It focuses on authenticating via OAuth 2.0 client credentials, generating a bearer access token, and performing authenticated API calls to retrieve user identity information.
+
+The goal of this project is not full application development, but practical security automation commonly used in presales evaluations, proof-of-concept work, and identity integrations.
+
+---
+
 ## Security Note
 
 This project uses environment variables for authentication.  
@@ -25,14 +33,6 @@ Required variables:
 - USER_UUID – Target user identifier for lookup
 
 All sensitive values are stored as environment variables and are not hard-coded.
-
----
-
-## Overview
-
-This project demonstrates lightweight Python automation using CyberArk Identity APIs. It focuses on authenticating via OAuth 2.0 client credentials, generating a bearer access token, and performing authenticated API calls to retrieve user identity information.
-
-The goal of this project is not full application development, but practical security automation commonly used in presales evaluations, proof-of-concept work, and identity integrations.
 
 ---
 
