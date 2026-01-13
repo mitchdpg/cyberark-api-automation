@@ -1,0 +1,12 @@
+## Configuration & Variables
+
+This project uses environment variables to securely configure authentication and API access.
+
+Required variables:
+- CYBERARK_TENANT_URL – Base URL for the CyberArk Identity tenant
+- CYBERARK_CLIENT_ID – OAuth client ID
+- CYBERARK_CLIENT_SECRET – OAuth client secret
+- CYBERARK_SCOPE – OAuth scope for API access
+- USER_UUID – Target user identifier for lookup
+
+All sensitive values are stored as environment variables and are not hard-coded.
