@@ -33,6 +33,7 @@ Required variables:
 - USER_UUID – Target user identifier for lookup
 
 All sensitive values are stored as environment variables and are not hard-coded.
+A concise variable reference is also available in `variables.txt` for quick lookup.
 
 ---
 
